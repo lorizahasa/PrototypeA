@@ -1,0 +1,8 @@
+/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/buildA/CMakeFiles/install/strip.dir
+/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/buildA/CMakeFiles/install/local.dir
+/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/buildA/CMakeFiles/install.dir
+/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/buildA/CMakeFiles/exampleAL.dir
+/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/buildA/CMakeFiles/AL.dir
+/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/buildA/CMakeFiles/list_install_components.dir
+/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/buildA/CMakeFiles/edit_cache.dir
+/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/buildA/CMakeFiles/rebuild_cache.dir
