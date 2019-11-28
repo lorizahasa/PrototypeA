@@ -17,13 +17,14 @@ class ALScintillatorSD : public G4VSensitiveDetector
                      const G4String& hitsCollectionName);
     virtual ~ALScintillatorSD();
 
-    // methods from base class                                                  
+    // methods from base class
     virtual void   Initialize(G4HCofThisEvent* hitCollection);
     virtual G4bool ProcessHits(G4Step* step, G4TouchableHistory* history);
     virtual void   EndOfEvent(G4HCofThisEvent* hitCollection);
 
   private:
     ALScintillatorHitsCollection* fHitsCollection;
-    
+    ALScintillatorHitsCollection* mParticleCount;
+
 };
 #endif

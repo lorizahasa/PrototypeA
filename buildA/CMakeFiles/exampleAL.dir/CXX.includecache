@@ -3016,6 +3016,10 @@ ALScintillatorHit.hh
 vector
 -
 
+/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/AL/include/ALSteppingAction.hh
+G4UserSteppingAction.hh
+/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/AL/include/G4UserSteppingAction.hh
+
 /home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/AL/src/ALActionInitialization.cc
 ALActionInitialization.hh
 /home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/AL/src/ALActionInitialization.hh
@@ -3025,6 +3029,8 @@ ALRunAction.hh
 /home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/AL/src/ALRunAction.hh
 ALEventAction.hh
 /home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/AL/src/ALEventAction.hh
+ALSteppingAction.hh
+/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/AL/src/ALSteppingAction.hh
 
 /home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/AL/src/ALDetectorConstruction.cc
 ALDetectorConstruction.hh
@@ -3129,4 +3135,12 @@ G4SDManager.hh
 /home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/AL/src/G4SDManager.hh
 G4ios.hh
 /home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/AL/src/G4ios.hh
+
+/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/AL/src/ALSteppingAction.cc
+ALSteppingAction.hh
+/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/AL/src/ALSteppingAction.hh
+G4Step.hh
+/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/AL/src/G4Step.hh
+G4RunManager.hh
+/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/AL/src/G4RunManager.hh
 

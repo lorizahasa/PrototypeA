@@ -9,7 +9,8 @@ ALScintillatorSD::ALScintillatorSD(
                             const G4String& name,
                             const G4String& hitsCollectionName)
  : G4VSensitiveDetector(name),
-   fHitsCollection(nullptr)
+   fHitsCollection(nullptr),
+   mParticleCount(0)
 
 {
   collectionName.insert(hitsCollectionName);
@@ -49,6 +50,15 @@ G4bool ALScintillatorSD::ProcessHits(G4Step* step,
   if ( step->GetTrack()->GetDefinition()->GetPDGCharge() != 0. ) {
     stepLength = step->GetStepLength();
   }
+
+  auto particle = step->GetTrack()->GetDefinition()->GetParticleName();
+
+  mParticleCount++; //Count the particles
+          //Print Information
+         G4cout <<">>> Track "<<step->GetTrack()->GetTrackID()
+         << std::setw(10)<<" Total energy: " << edep << std::setw(5)
+         << std::setw(10)<<" particle: " <<particle<< std::setw(10)
+         << std::endl;
 
 //  if ( edep==0. && stepLength == 0. ) return false;
 

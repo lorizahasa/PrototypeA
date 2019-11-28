@@ -2,7 +2,7 @@
 #include "ALPrimaryGeneratorAction.hh"
 #include "ALRunAction.hh"
 #include "ALEventAction.hh"
-//#include "ALSteppingAction.hh"
+#include "ALSteppingAction.hh"
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
@@ -31,11 +31,11 @@ void ALActionInitialization::Build() const
 
   ALRunAction* runAction = new ALRunAction;
   SetUserAction(runAction);
-  
+
   ALEventAction* eventAction = new ALEventAction(runAction);
   SetUserAction(eventAction);
-  
-  // SetUserAction(new ALSteppingAction(eventAction));
-}  
+
+  SetUserAction(new ALSteppingAction);
+}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo.....

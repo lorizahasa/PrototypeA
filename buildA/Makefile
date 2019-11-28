@@ -398,6 +398,33 @@ src/ALScintillatorSD.cc.s:
 	$(MAKE) -f CMakeFiles/exampleAL.dir/build.make CMakeFiles/exampleAL.dir/src/ALScintillatorSD.cc.s
 .PHONY : src/ALScintillatorSD.cc.s
 
+src/ALSteppingAction.o: src/ALSteppingAction.cc.o
+
+.PHONY : src/ALSteppingAction.o
+
+# target to build an object file
+src/ALSteppingAction.cc.o:
+	$(MAKE) -f CMakeFiles/exampleAL.dir/build.make CMakeFiles/exampleAL.dir/src/ALSteppingAction.cc.o
+.PHONY : src/ALSteppingAction.cc.o
+
+src/ALSteppingAction.i: src/ALSteppingAction.cc.i
+
+.PHONY : src/ALSteppingAction.i
+
+# target to preprocess a source file
+src/ALSteppingAction.cc.i:
+	$(MAKE) -f CMakeFiles/exampleAL.dir/build.make CMakeFiles/exampleAL.dir/src/ALSteppingAction.cc.i
+.PHONY : src/ALSteppingAction.cc.i
+
+src/ALSteppingAction.s: src/ALSteppingAction.cc.s
+
+.PHONY : src/ALSteppingAction.s
+
+# target to generate assembly for a file
+src/ALSteppingAction.cc.s:
+	$(MAKE) -f CMakeFiles/exampleAL.dir/build.make CMakeFiles/exampleAL.dir/src/ALSteppingAction.cc.s
+.PHONY : src/ALSteppingAction.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -436,6 +463,9 @@ help:
 	@echo "... src/ALScintillatorSD.o"
 	@echo "... src/ALScintillatorSD.i"
 	@echo "... src/ALScintillatorSD.s"
+	@echo "... src/ALSteppingAction.o"
+	@echo "... src/ALSteppingAction.i"
+	@echo "... src/ALSteppingAction.s"
 .PHONY : help
 
 

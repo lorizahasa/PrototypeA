@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/exampleAL.dir/src/ALRunAction.cc.o"
   "CMakeFiles/exampleAL.dir/src/ALScintillatorHit.cc.o"
   "CMakeFiles/exampleAL.dir/src/ALScintillatorSD.cc.o"
+  "CMakeFiles/exampleAL.dir/src/ALSteppingAction.cc.o"
   "exampleAL.pdb"
   "exampleAL"
 )

@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/AL/src/ALRunAction.cc" "/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/buildA/CMakeFiles/exampleAL.dir/src/ALRunAction.cc.o"
   "/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/AL/src/ALScintillatorHit.cc" "/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/buildA/CMakeFiles/exampleAL.dir/src/ALScintillatorHit.cc.o"
   "/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/AL/src/ALScintillatorSD.cc" "/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/buildA/CMakeFiles/exampleAL.dir/src/ALScintillatorSD.cc.o"
+  "/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/AL/src/ALSteppingAction.cc" "/home/lorih/builds/Geant4/geant4.10.04/examples/basic/PrototypeA/buildA/CMakeFiles/exampleAL.dir/src/ALSteppingAction.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
